@@ -1,0 +1,11 @@
+greaseweazle (0.39+git32b99a1-1) unstable; urgency=medium
+
+  * New upstream (snapshot)
+
+ -- Ian Eure <ian@retrospec.tv>  Sat, 02 Apr 2022 11:50:12 -0700
+
+greaseweazle (0.39-1) UNRELEASED; urgency=medium
+
+  * Initial packaging
+
+ -- Ian Eure <ian@retrospec.tv>  Sat, 26 Mar 2022 13:03:23 -0700

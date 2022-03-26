@@ -1,0 +1,14 @@
+Source: greaseweazle
+Maintainer: Ian Eure <ian@retrospec.tv>
+Section: misc
+Priority: optional
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-dev, python3-setuptools, python3-setuptools-scm
+X-Python3-Version: >= 3.X
+
+Package: greaseweazle-tools
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-bitarray (>= 1.6.3), python3-serial (>= 3.5~b0), python3-requests (>= 2.25), python3-wheel (>= 0.34.2), python3-crcmod (>= 1.7)
+Description: Tools for accessing a floppy drive at the raw flux level
+ Host tools for controlling a Greaseweazle USB device.
+ 
